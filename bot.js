@@ -12,7 +12,7 @@ client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== '426744069163843584') return;
+  if (message.author.id !== '487710308396302366') return;
 if (message.content.startsWith(PrEfix + 'wt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
     message.channel.sendMessage(`**✅  : ${argresult}**`)
@@ -23,7 +23,7 @@ client.user.setActivity(argresult, {type:'LISTENING'});
     message.channel.sendMessage(`**✅  : ${argresult}**`)
 } else 
 if (message.content.startsWith(PrEfix + 'st')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/amira");
+  client.user.setGame(argresult, "https://www.twitch.tv/Baktash_183");
     message.channel.sendMessage(`**✅  : ${argresult}**`)
 }
 
